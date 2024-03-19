@@ -1,0 +1,271 @@
+body {
+  height: 100vh;
+  background-image: url(image/bck.jpeg);
+  background-size: 30%;
+  font-family: "Cairo", sans-serif;
+  font-weight: bold;
+}
+
+div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+div:first-child {
+  width: 150px;
+  height: 150px;
+  background-image: url(image/sun.jpeg);
+  background-position: center;
+  background-size: 125%;
+  box-shadow: 0 0 20px 7px #e87609;
+}
+
+div:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  animation: rotate 3s infinite linear;
+  -webkit-animation: rotate 4s infinite linear;
+}
+
+div:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: url(image/1.jpeg) center;
+  background-size: 157%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50%;
+  left: -8px;
+}
+
+div:nth-child(3) {
+  width: 250px;
+  height: 250px;
+  animation: rotate 3s infinite linear;
+  -webkit-animation: rotate 5s infinite linear;
+}
+
+div:nth-child(3)::after {
+  content: "";
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  background: url(image/2.jpeg) center;
+  background-size: 142%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50%;
+  left: -10px;
+}
+
+div:nth-child(4) {
+  width: 300px;
+  height: 300px;
+  animation: rotate 6s infinite linear;
+  -webkit-animation: rotate 6s infinite linear;
+}
+
+div:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(image/3.jpeg) center;
+  background-size: 130%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50%;
+  left: -12px;
+}
+
+div:nth-child(5) {
+  width: 350px;
+  height: 350px;
+  animation: rotate 7s infinite linear;
+  -webkit-animation: rotate 7s infinite linear;
+}
+
+div:nth-child(5)::after {
+  content: "";
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: url(image/4.jpeg) center;
+  background-size: 142%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50%;
+  left: -12px;
+}
+
+div:nth-child(6) {
+  width: 420px;
+  height: 420px;
+  border: #260404 solid 2px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+div:nth-child(7) {
+  width: 560px;
+  height: 560px;
+  animation: rotate 10s infinite linear;
+  -webkit-animation: rotate 10s infinite linear;
+}
+
+div:nth-child(7)::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: url(image/5.jpeg) center;
+  background-size: 142%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 50%;
+  left: -25px;
+}
+
+div:nth-child(8) {
+  width: 730px;
+  height: 730px;
+  animation: rotate 12s infinite linear;
+  -webkit-animation: rotate 12s infinite linear;
+}
+
+div:nth-child(8)::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background-image: url(image/6.jpeg);
+  background-position: center;
+  background-size: 93%;
+  border-radius: 200px 45px;
+  -webkit-border-radius: 200px 45px;
+  -moz-border-radius: 200px 45px;
+  -ms-border-radius: 200px 45px;
+  -o-border-radius: 200px 45px;
+  top: 50%;
+  left: -30px;
+  background-repeat: no-repeat;
+}
+
+div:nth-child(9) {
+  width: 900px;
+  height: 900px;
+  animation: rotate 14s infinite linear;
+  -webkit-animation: rotate 14s infinite linear;
+}
+
+div:nth-child(9)::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-image: url(image/7.jpeg);
+  background-position: center;
+  background-size: 110%;
+  border-radius: 200px 45px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 200px 45px;
+  -ms-border-radius: 200px 45px;
+  -o-border-radius: 200px 45px;
+  top: 50%;
+  left: -20px;
+}
+
+div:nth-child(10) {
+  width: 1000px;
+  height: 1000px;
+  animation: rotate 16s infinite linear;
+  -webkit-animation: rotate 16s infinite linear;
+}
+
+div:nth-child(10)::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  background-image: url(image/8.jpeg);
+  background-position: center;
+  background-size: 150%;
+  border-radius: 200px 45px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 200px 45px;
+  -ms-border-radius: 200px 45px;
+  -o-border-radius: 200px 45px;
+  top: 50%;
+  left: -25px;
+}
+
+div:nth-child(11) {
+  width: 1100px;
+  height: 1100px;
+  animation: rotate 18s infinite linear;
+  -webkit-animation: rotate 18s infinite linear;
+}
+
+div:nth-child(11)::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-image: url(image/9.jpeg);
+  background-position: center;
+  background-size: 170%;
+  border-radius: 200px 45px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 200px 45px;
+  -ms-border-radius: 200px 45px;
+  -o-border-radius: 200px 45px;
+  top: 50%;
+  left: -15px;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(1turn);
+    -webkit-transform: translate(-50%, -50%) rotate(1turn);
+    -moz-transform: translate(-50%, -50%) rotate(1turn);
+    -ms-transform: translate(-50%, -50%) rotate(1turn);
+    -o-transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
